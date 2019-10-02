@@ -9,7 +9,7 @@ def portfolio(request):
     return render(request,'portfolio/portfolio_page.html')
 
 def about(request):
-    return render(request,'portfolio/about.html')
+    return render(request,'portfolio/about.html',{'title':'About'})
 
 
     
